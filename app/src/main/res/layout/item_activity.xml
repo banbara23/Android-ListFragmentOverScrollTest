@@ -1,0 +1,19 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:id="@+id/container"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context=".ItemActivity"
+             tools:ignore="MergeRootFrame"/>
+
+	<!--tools:ignore-->
+	<!--どの XML 要素にも付けることができる。
+	値はカンマで区切られた lint の issue ID のリスト。
+	Lint による検査時、指定された要素とその子孫要素について、指定された lint の issue が無視されるようになる。-->
+
+	<!--tools:context-->
+	<!--この属性は、典型的にはレイアウト XML ファイルのルート要素に付けられるもので、
+	そのレイアウトがどのアクティビティで使われるものかを指定する
+	(この値は単にデザイン時に使われるもの; 実際にはそのレイアウトをどのアクティビティと一緒に使っても問題ない)。
+	この値を指定しておくことで、例えばレイアウトエディタがデフォルトテーマを決めたりできるようになる。
+	Manifest ファイル中でのドットでのデフォルトパッケージ名の省略と同じことがこの属性の値でも可能。-->
